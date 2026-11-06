@@ -39,3 +39,18 @@ El monitor muestra ambos dispositivos habilitados, con interfaz `161/UDP`, plant
 ![Datos SNMP de conectividad e interfaces en Zabbix](../evidencias/08_Zabbix_latest_data_interfaces.png)
 
 Se verificaron valores actuales de CPU, memoria, disponibilidad ICMP y estado/tráfico de interfaces.
+
+## 8. Configuraciones completas observadas en Cisco IOS
+
+**R1 — desde `version` hasta `end`:**
+
+![R1 running-config, inicio](../evidencias/11_R1_running_config_inicio.png)
+![R1 running-config, final con DHCP y SNMP](../evidencias/12_R1_running_config_fin.png)
+
+**SW1 — desde `version` hasta `end`, incluidas todas las interfaces:**
+
+![SW1 running-config, inicio](../evidencias/13_SW1_running_config_inicio.png)
+![SW1 running-config, interfaces](../evidencias/14_SW1_running_config_medio.png)
+![SW1 running-config, VLAN1 y líneas de acceso](../evidencias/15_SW1_running_config_fin.png)
+
+Las capturas contienen únicamente redacción visual de la comunidad SNMP. La transcripción completa y depurada está disponible en [R1](../configuraciones/R1_running-config.txt) y [SW1](../configuraciones/SW1_running-config.txt).

@@ -51,6 +51,18 @@ flowchart TD
 
 **[Informe técnico](docs/informe-tecnico.md)** · **[Evidencias integradas](docs/evidencias.md)** · **[Procedimiento y comandos](docs/procedimiento.md)**
 
+## Evidencias visuales del funcionamiento
+
+Las siguientes imágenes proceden de las pruebas realizadas en la infraestructura.
+
+![Topología real en GNS3](evidencias/05_Topologia_GNS3.png)
+
+![R1 y SW1 con SNMP disponible en Zabbix](evidencias/04_Zabbix_hosts_SNMP.png)
+
+![Zabbix Latest data: valores recopilados de ambos equipos](evidencias/06_Zabbix_latest_data_resumen.png)
+
+[Ver todas las evidencias, incluidos los running-config en consola](docs/evidencias.md).
+
 ## Estructura del repositorio
 
 | Ruta | Contenido |

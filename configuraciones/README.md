@@ -6,3 +6,10 @@
 **Fidelidad:** ambos archivos transcriben las configuraciones mostradas en las capturas de `show running-config` **hasta `end`**. Se excluyó únicamente el valor real de `snmp-server community` por privacidad. El valor `<COMUNIDAD_SNMP_OCULTA>` es una representación, no una instrucción IOS ejecutable. El tamaño en bytes puede diferir del valor original por la sustitución de la cadena.
 
 No se han eliminado secciones de consola, AUX, VTY ni interfaces.
+
+## Capturas de respaldo
+- [Inicio de la configuración R1](../evidencias/11_R1_running_config_inicio.png)
+- [Final de la configuración R1](../evidencias/12_R1_running_config_fin.png)
+- [Inicio de la configuración SW1](../evidencias/13_SW1_running_config_inicio.png)
+- [Interfaces de SW1](../evidencias/14_SW1_running_config_medio.png)
+- [Final de la configuración SW1](../evidencias/15_SW1_running_config_fin.png)

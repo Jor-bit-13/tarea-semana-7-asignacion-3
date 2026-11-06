@@ -71,6 +71,10 @@ Los dos ítems no soportados provienen de la plantilla y las capacidades expuest
 - Se habilitaron los módulos `proxy`, `proxy_fcgi` y `setenvif` de Apache cuando `apache2ctl configtest` reportó que `ProxyTimeout` no estaba reconocido.
 - Se verificó la conexión entre Zabbix y MariaDB y se completó el asistente de inicialización web.
 
+### Configuraciones completas documentadas
+
+Se publican [la transcripción completa de R1](../configuraciones/R1_running-config.txt) y [la de SW1](../configuraciones/SW1_running-config.txt), acompañadas de [capturas del inicio y final de ambos `show running-config`](evidencias.md#8-configuraciones-completas-observadas-en-cisco-ios).
+
 ## 9. Seguridad y observaciones
 - SNMPv2c usa cadena de comunidad sin cifrado; se mantiene **solo en el entorno aislado de laboratorio**. Su permiso es de lectura (`RO`), filtrado por una ACL que abarca toda la red `10.7.63.0/24`.
 - No se publican contraseñas de MariaDB, Zabbix o la comunidad SNMP.
