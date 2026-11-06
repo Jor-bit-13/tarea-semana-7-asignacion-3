@@ -1,3 +1,11 @@
+## 🎬 Video demostrativo (YouTube)
+
+**[Ver video de la práctica — Semana 7, Asignación 3](https://youtu.be/6sB3vWeXpH0)**
+
+[![Ver demostración en YouTube](https://img.youtube.com/vi/6sB3vWeXpH0/hqdefault.jpg)](https://youtu.be/6sB3vWeXpH0)
+
+---
+
 # Semana 7 · Asignación 3 — Monitoreo de redes con Zabbix, DHCP y SNMP
 
 **Seguridad de Redes | Laboratorio individual | GNS3 + Cisco IOS + Ubuntu Server + Zabbix**
