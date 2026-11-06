@@ -75,7 +75,6 @@ Las siguientes imágenes proceden de las pruebas realizadas en la infraestructur
 | `docs/evidencias.md` | Imágenes insertadas y explicadas en orden |
 | `docs/procedimiento.md` | Comandos y verificación reproducible |
 | `scripts/verificar-laboratorio.sh` | Script adicional para repetir verificaciones desde Ubuntu |
-| `docs/guion-video.md` | Orden de demostración de menos de 10 minutos |
 
 ## Seguridad y reproducibilidad
 
