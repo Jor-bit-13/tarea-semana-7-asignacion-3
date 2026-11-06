@@ -2,8 +2,6 @@
 
 **Seguridad de Redes | Laboratorio individual | GNS3 + Cisco IOS + Ubuntu Server + Zabbix**
 
-<!-- El enlace de YouTube se agregará en la primera línea visible al publicarse el video demostrativo. -->
-
 ## Propósito del laboratorio
 
 Desplegar una red LAN de pruebas con direccionamiento basado en la matrícula **20250763**, asignación automática de direcciones por **DHCP en R1** y monitoreo centralizado de **R1 y SW1** con **SNMPv2c de solo lectura**, mediante un servidor **Zabbix instalado en Ubuntu Server**. La validación se realiza mediante consultas SNMP desde Linux y métricas capturadas en la interfaz web de Zabbix.
