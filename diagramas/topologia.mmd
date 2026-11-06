@@ -1,0 +1,12 @@
+flowchart TD
+    R["R1 - Cisco c2691\nFa0/0 10.7.63.1/24\nDHCP + SNMP RO"]
+    S["SW1 - c2691 EtherSwitch NM-16ESW\nVlan1 10.7.63.2/24\nSNMP RO"]
+    P["PC1 VPCS\n10.7.63.101 DHCP"]
+    C["Cloud1\nVMware VMnet4 (Host-only)"]
+    U["Ubuntu Server / Zabbix 7.4.16\nens33 10.7.63.100 DHCP"]
+    N["VMware VMnet8 NAT\nens37 192.168.209.134"]
+    R ---|"Fa0/0 - Fa1/0"| S
+    S ---|"Fa1/2"| P
+    S ---|"Fa1/1"| C
+    C --- U
+    U -. "solo acceso a Internet" .- N

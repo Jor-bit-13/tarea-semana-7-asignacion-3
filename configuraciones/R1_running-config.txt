@@ -1,0 +1,77 @@
+version 12.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname R1
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no aaa new-model
+memory-size iomem 5
+no ip icmp rate-limit unreachable
+ip cef
+!
+!
+ip auth-proxy max-nodata-conns 3
+ip admission max-nodata-conns 3
+no ip dhcp use vrf connected
+ip dhcp excluded-address 10.7.63.1 10.7.63.99
+ip dhcp excluded-address 10.7.63.254
+!
+ip dhcp pool LAN-ZABBIX
+ network 10.7.63.0 255.255.255.0
+ default-router 10.7.63.1
+!
+!
+no ip domain lookup
+!
+!
+ip tcp synwait-time 5
+!
+!
+interface FastEthernet0/0
+ ip address 10.7.63.1 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+!
+interface FastEthernet1/0
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+!
+ip forward-protocol nd
+!
+no ip http server
+no ip http secure-server
+!
+access-list 15 permit 10.7.63.0 0.0.0.255
+snmp-server community <COMUNIDAD_SNMP_OCULTA> RO 15
+snmp-server location LAB-GNS3-R1
+snmp-server contact Administrador
+no cdp log mismatch duplex
+!
+control-plane
+!
+!
+line con 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+line aux 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+line vty 0 4
+ login
+!
+end
