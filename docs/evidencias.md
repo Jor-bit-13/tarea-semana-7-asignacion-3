@@ -1,5 +1,7 @@
 # Evidencias de las pruebas
 
+**Video demostrativo:** [Ver en YouTube](https://youtu.be/6sB3vWeXpH0)
+
 Las capturas proceden del laboratorio ejecutado en GNS3, Ubuntu Server y la interfaz web de Zabbix. Cada figura se incluye junto a su verificación.
 
 ## 1. Topología física y red virtual
