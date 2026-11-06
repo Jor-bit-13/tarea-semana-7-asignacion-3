@@ -5,6 +5,10 @@
 **Plataformas:** GNS3 con IOS Cisco 12.4, VMware Workstation, Ubuntu Server 26.04.1 LTS y Zabbix 7.4.16  
 **Subred de la matrícula 20250763:** `10.7.63.0/24`
 
+## Video demostrativo
+
+[**Ver la demostración individual en YouTube**](https://youtu.be/6sB3vWeXpH0)
+
 ## 1. Propósito
 Diseñar e implementar una LAN simulada con un servidor DHCP Cisco, gestión SNMP de solo lectura en router y switch y supervisión centralizada en Zabbix. Verificar mediante datos reales los identificadores de los dispositivos, su disponibilidad y las métricas de uso.
 
